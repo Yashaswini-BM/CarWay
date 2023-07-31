@@ -2,15 +2,6 @@
   <div class="container">
     <form action="/action_page.php" (ngSubmit)="authenticate()" class="was-validated" #flog="ngForm">
     <div class="row">
-        <div class="col-25">
-          <label for="name">ID</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="id" name="id" placeholder="Your id..">
-        </div>
-    </div>
-
-    <div class="row">
       <div class="col-25">
         <label for="name">Name</label>
       </div>
@@ -18,7 +9,6 @@
         <input type="text" id="name" name="name" placeholder="Your name..">
       </div>
     </div>
-
     <div class="row">
       <div class="col-25">
         <label for="principal">Principal Loan Amount</label>
@@ -27,7 +17,6 @@
         <input type="number" id="principal" name="principal" [(ngModel)]="principalLoanAmount" required>
       </div>
     </div>
-
     <div class="row">
       <div class="col-25">
         <label for="interestRate">Annual Interest Rate (%)</label>
@@ -54,7 +43,6 @@
         <h2 type="number">₹ {{ avail.emi.toFixed(2) }} per month</h2>
       </div>
     </div>
-
     <div class="row">
       <div class="col-25">
         <label for="income">Monthly Income</label>
@@ -63,9 +51,6 @@
         <input type="number" id="income" name="income" placeholder="Your income.." [(ngModel)]="avail.income" (change)="check()">
       </div>
     </div>
-
-    <br>
-    <br>
 
     <div [hidden]="flag"><h3>You're not eligible to avail loan as your income is low.<br>
       We would suggest you to check</h3>&nbsp;

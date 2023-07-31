@@ -17,6 +17,11 @@ import { EmiComponent } from './emi/emi.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { FinalComponent } from './final/final.component';
+import { NewcarBrandComponent } from './newcar-brand/newcar-brand.component';
+import { NewAudiComponent } from './new-audi/new-audi.component';
+import { NewBmwComponent } from './new-bmw/new-bmw.component';
+import { NewFordComponent } from './new-ford/new-ford.component';
+import { NewHyundaiComponent } from './new-hyundai/new-hyundai.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { FinalComponent } from './final/final.component';
     EmployeeComponent,
     EmiComponent,
     HomeComponent,
-    FinalComponent
+    FinalComponent,
+    NewcarBrandComponent,
+    NewAudiComponent,
+    NewBmwComponent,
+    NewFordComponent,
+    NewHyundaiComponent
   ],
   imports: [
     BrowserModule,

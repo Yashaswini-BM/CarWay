@@ -12,10 +12,16 @@ import { EmployeeComponent } from './employee/employee.component';
 import { EmiComponent } from './emi/emi.component';
 import { FinalComponent } from './final/final.component';
 import { HomeComponent } from './home/home.component';
+import { NewcarBrandComponent } from './newcar-brand/newcar-brand.component';
+import { NewAudiComponent } from './new-audi/new-audi.component';
+import { NewBmwComponent } from './new-bmw/new-bmw.component';
+import { NewFordComponent } from './new-ford/new-ford.component';
+import { NewHyundaiComponent } from './new-hyundai/new-hyundai.component';
 
 const routes: Routes = [
       {path:"home", component: HomeComponent},
       {path:"newcar", component:NewcarComponent},
+      {path:"newcarbrand", component:NewcarBrandComponent},
       {path:"avail", component:AvailComponent},
       {path:"application", component:ApplicationComponent},
       {path:"upload", component:UploadComponent},
@@ -28,6 +34,11 @@ const routes: Routes = [
             {path:"employee", component:EmployeeComponent}
       ]},
       {path:"final", component:FinalComponent},
+
+      {path:"newaudi", component:NewAudiComponent},
+      {path:"newbmw", component:NewBmwComponent},
+      {path:"newford", component:NewFordComponent},
+      {path:"newhyundai", component:NewHyundaiComponent},
       {
         path:"", redirectTo: "/home", pathMatch: "full"
       }

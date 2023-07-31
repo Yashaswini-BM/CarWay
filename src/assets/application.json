@@ -3,7 +3,6 @@
     {
       "id": 1,
       "name": "John",
-      "income": 70000,
       "dob": "28/01/1996",
       "gender": "Male",
       "mobileno": 7896000321,
@@ -13,7 +12,6 @@
     {
       "id": 2,
       "name": "Sandra",
-      "income": 79000,
       "dob": "16/02/1999",
       "gender": "Female",
       "mobileno": 7908821321,
@@ -23,7 +21,6 @@
     {
       "id": 3,
       "name": "Sandy",
-      "income": 50000,
       "dob": "28/09/1998",
       "gender": "Male",
       "mobileno": 9012343330,
@@ -33,7 +30,6 @@
     {
       "id": 4,
       "name": "Alex",
-      "income": 45000,
       "dob": "08/07/1997",
       "gender": "Male",
       "mobileno": 8023013330,
@@ -43,7 +39,6 @@
     {
       "id": 5,
       "name": "Watson",
-      "income": 45920,
       "dob": "01/01/1995",
       "gender": "Male",
       "mobileno": 9309123470,
@@ -53,7 +48,6 @@
     {
       "id": 6,
       "name": "sajid",
-      "income": 12109,
       "dob": "2023-07-13",
       "gender": "male",
       "mobileno": 108198268,
@@ -63,7 +57,6 @@
     {
       "id": 7,
       "name": "sajid",
-      "income": 12109,
       "dob": "2023-07-13",
       "gender": "male",
       "mobileno": 108198268,
@@ -73,7 +66,6 @@
     {
       "id": 8,
       "name": "sajid",
-      "income": 12109,
       "dob": "2023-07-13",
       "gender": "male",
       "mobileno": 108198268,
@@ -82,13 +74,12 @@
     },
     {
       "id": 9,
-      "name": "sajid",
-      "income": 88888,
-      "dob": "2023-06-28",
+      "name": "HARSH",
+      "dob": "2001-10-01",
       "gender": "male",
-      "mobileno": 99999999,
-      "email": "mdcjdllqkw@gmail.com",
-      "password": "Saaaaaa"
+      "mobileno": 8796369863,
+      "email": "hello@gmail.com",
+      "password": "HELLO233"
     }
   ]
 }

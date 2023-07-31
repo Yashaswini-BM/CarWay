@@ -1,0 +1,32 @@
+{
+    "ownedcar":[
+        {
+            "car-model":"Maruti Suzuki Alto",
+            "price":400000,
+            "engine": "796cc",
+            "fuel-type":"Petrol/cng",
+            "mileage":"22.05km/kg",
+            "transmission":"manual",
+            "seating-capacity":"4 seater"
+        },
+        {
+            "car-model":"Maruti Suzuki Celerio",
+            "price":530000,
+            "engine": "998cc",
+            "fuel-type":"Petrol/cng",
+            "mileage":"24.97-26.68km/kg",
+            "transmission":"manual/automatic",
+            "seating-capacity":"5 seater"
+        },
+        {
+            "car-model":"Maruti Suzuki Swift",
+            "price":650000,
+            "engine": "1197cc",
+            "fuel-type":"Petrol/cng",
+            "mileage":"22.38-22.56km/kg",
+            "transmission":"manual/automatic",
+            "seating-capacity":"5 seater"
+        }
+
+    ]
+}

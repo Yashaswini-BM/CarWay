@@ -1,0 +1,32 @@
+{
+    "newcar":[
+        {
+            "car-model":"Maruti Suzuki Brezza",
+            "price":1200000,
+            "engine": "1462cc",
+            "fuel-type":"Petrol/cng",
+            "mileage":"17.38-25-51km/kg",
+            "transmission":"manual/automatic",
+            "seating-capacity":"5 seater"
+        },
+        {
+            "car-model":"Maruti Suzuki Ciaz Delta",
+            "price":990000,
+            "engine": "1462cc",
+            "fuel-type":"Petrol",
+            "mileage":"20.65km/kg",
+            "transmission":"manual",
+            "seating-capacity":"5 seater"
+        },
+        {
+            "car-model":"Maruti Suzuki Ertiga",
+            "price":1050000,
+            "engine": "1462cc",
+            "fuel-type":"Petrol/cng",
+            "mileage":"20.3-26.11km/kg",
+            "transmission":"manual/automatic",
+            "seating-capacity":"7 seater"
+        }
+
+    ]
+}

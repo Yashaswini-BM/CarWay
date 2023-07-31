@@ -1,0 +1,39 @@
+<body>
+  <div class="container">
+    <h1>Car Loan EMI Calculator</h1>
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="principal">Principal Loan Amount</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="principal" name="principal" [(ngModel)]="principalLoanAmount" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="interestRate">Annual Interest Rate (%)</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="interestRate" name="interestRate" [(ngModel)]="annualInterestRate" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="loanTerm">Loan Term (Years)</label>
+      </div>
+      <div class="col-75">
+        <input type="number" id="loanTerm" name="loanTerm" [(ngModel)]="loanTermInYears"  required>
+      </div>
+    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     .
+    <br>
+    <div class="row">
+      <input type="submit" value="Calculate EMI" (click)="calculateEMI()">
+    </div>
+    </form>
+  </div>
+  <br>
+  <div *ngIf="emi">
+    <h2>EMI: {{ emi.toFixed(2) }} per month</h2>
+  </div>
+  </body>

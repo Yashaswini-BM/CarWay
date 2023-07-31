@@ -1,0 +1,39 @@
+{
+  "avails": [
+    {
+      "id": 1,
+      "name": "John",
+      "income":70000,
+      "aadhar": 345267759080,
+      "pan": "DNHA3F8970"
+    },
+    {
+      "id": 2,
+      "name": "Sandra",
+      "income":79000,
+      "aadhar": 908767542312,
+      "pan": "DMK568OP09"
+    },
+    {
+      "id": 3,
+      "name": "Sandy",
+      "income":50000,
+      "aadhar": 675489770909,
+      "pan": "KLIP09O897"
+    },
+    {
+      "id": 4,
+      "name": "Alex",
+      "income":45000,
+      "aadhar": 5643236776,
+      "pan": "BHMJ01K908"
+    },
+    {
+      "id": 5,
+      "name": "Watson",
+      "income":45920,
+      "aadhar": 929078644434,
+      "pan": "WAQ889PO78"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<table class="styled-table">
+    <thead class="style-head">
+        <th>ID</th>
+        <th>DOB</th>
+        <th>Gender</th>
+        <th>Mobile No</th>
+        <th>Email</th>
+    </thead>
+    <tbody class="style-content">
+        <tr *ngFor="let v of view">
+            <td>{{v.id}}</td>
+            <td>{{v.dob}}</td>
+            <td>{{v.gender}}</td>
+            <td>{{v.mobileno}}</td>
+            <td>{{v.email}}</td>
+        </tr>
+    </tbody>
+</table>
+<button type="submit" class="btn" [routerLink]="['/home']">Back To 🏠</button>

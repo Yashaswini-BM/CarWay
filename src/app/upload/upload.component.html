@@ -1,0 +1,23 @@
+<body class="container">
+  <fieldset>
+      <h5>Please upload below documents* </h5>
+      <h3>Aadhar Card</h3> 
+      <div class="container"> 
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="upload">
+          <img src="../assets/images/aadhaar-card.png" height="80" >
+        </div>
+      </div>
+      &nbsp;
+      <h3>Pan card</h3> 
+      <div class="container"> 
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="upload">
+            <img src="../assets/images/pan-card.png" height="120" >
+          </div>
+      </div>
+      <br>
+      <button type="button" [routerLink]="['/application']" >Back</button> &nbsp;
+      <button type="button" [routerLink]="['/final']" >Continue</button>  
+  </fieldset>  
+</body>

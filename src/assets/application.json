@@ -1,0 +1,94 @@
+{
+  "application": [
+    {
+      "id": 1,
+      "name": "John",
+      "income": 70000,
+      "dob": "28/01/1996",
+      "gender": "Male",
+      "mobileno": 7896000321,
+      "email": "amazingjohn12@gmail.com",
+      "password": "amaz12?john"
+    },
+    {
+      "id": 2,
+      "name": "Sandra",
+      "income": 79000,
+      "dob": "16/02/1999",
+      "gender": "Female",
+      "mobileno": 7908821321,
+      "email": "sandrawilliams@gmail.com",
+      "password": "Sandra@1602"
+    },
+    {
+      "id": 3,
+      "name": "Sandy",
+      "income": 50000,
+      "dob": "28/09/1998",
+      "gender": "Male",
+      "mobileno": 9012343330,
+      "email": "sandy2809@gmail.com",
+      "password": "sandy2809?S"
+    },
+    {
+      "id": 4,
+      "name": "Alex",
+      "income": 45000,
+      "dob": "08/07/1997",
+      "gender": "Male",
+      "mobileno": 8023013330,
+      "email": "Alexander3@gmail.com",
+      "password": "alex2?0807"
+    },
+    {
+      "id": 5,
+      "name": "Watson",
+      "income": 45920,
+      "dob": "01/01/1995",
+      "gender": "Male",
+      "mobileno": 9309123470,
+      "email": "watson56@gmail.com",
+      "password": "waTson?07"
+    },
+    {
+      "id": 6,
+      "name": "sajid",
+      "income": 12109,
+      "dob": "2023-07-13",
+      "gender": "male",
+      "mobileno": 108198268,
+      "email": "mdcjdllqkw@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": 7,
+      "name": "sajid",
+      "income": 12109,
+      "dob": "2023-07-13",
+      "gender": "male",
+      "mobileno": 108198268,
+      "email": "mdcjdllqkw@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": 8,
+      "name": "sajid",
+      "income": 12109,
+      "dob": "2023-07-13",
+      "gender": "male",
+      "mobileno": 108198268,
+      "email": "mdcjdllqkw@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": 9,
+      "name": "sajid",
+      "income": 88888,
+      "dob": "2023-06-28",
+      "gender": "male",
+      "mobileno": 99999999,
+      "email": "mdcjdllqkw@gmail.com",
+      "password": "Saaaaaa"
+    }
+  ]
+}

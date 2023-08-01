@@ -1,0 +1,73 @@
+{
+    "list":[
+        {
+           "name":"John",
+           "gender":"Male",
+           "carname":"Maruti Suzuki Brezza",
+           "mobileno":7896000321,
+           "email":"amazingjohn12@gmail.com",
+           "income":70000,
+           "emi":26240.77,
+           "loanterm": "5 years",
+           "loanstatus":"reject"
+        },
+        {
+            "name":"Sandra",
+            "gender":"Female",
+            "carname":"Maruti Suzuki celerio",
+            "mobileno":7908821321,
+            "email":"sandrawilliams@gmail.com",
+            "income":79000,
+            "emi":11589.67,
+            "loanterm": "5 years",
+            "loanstatus":"approved"
+         },
+         {
+            "name":"Sandy",
+            "gender":"Male",
+            "carname":"Maruti Suzuki Alto",
+            "mobileno":9012343330,
+            "email":"sandy2809@gmail.com",
+            "income":50000,
+            "emi":8746.92,
+            "loanterm": "5 years",
+            "loanstatus":"approved"
+         },
+         {
+            "name":"Alex",
+            "gender":"Male",
+            "carname":"Maruti Suzuki Ertiga",
+            "mobileno":8023013330,
+            "email":"Alexander3@gmail.com",
+            "income":100000,
+            "emi":22960.67,
+            "loanterm": "5 years",
+            "loanstatus":"approved"
+         },
+         {
+            "name":"Watson",
+            "gender":"Male",
+            "carname":"Maruti Suzuki Swift",
+            "mobileno":9309123470,
+            "email":"watson56@gmail.com",
+            "income":60000,
+            "emi":14213.75 ,
+            "loanterm": "5 years",
+            "loanstatus":"approved"
+         },
+         {
+            "name":"Warner",
+            "gender":"Male",
+            "carname":"Maruti Suzuki Ciaz Delta",
+            "mobileno":9309123470,
+            "email":"warner01@gmail.com",
+            "income":65000,
+            "emi":21648.63,
+            "loanterm": "5 years",
+            "loanstatus":"reject"
+         }
+
+
+
+    ]
+}

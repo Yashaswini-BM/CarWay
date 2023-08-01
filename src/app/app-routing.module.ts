@@ -17,6 +17,7 @@ import { NewAudiComponent } from './new-audi/new-audi.component';
 import { NewBmwComponent } from './new-bmw/new-bmw.component';
 import { NewFordComponent } from './new-ford/new-ford.component';
 import { NewHyundaiComponent } from './new-hyundai/new-hyundai.component';
+import { UserlistComponent } from './userlist/userlist.component';
 
 const routes: Routes = [
       {path:"home", component: HomeComponent},
@@ -34,6 +35,7 @@ const routes: Routes = [
             {path:"employee", component:EmployeeComponent}
       ]},
       {path:"final", component:FinalComponent},
+      {path:"userlist", component:UserlistComponent},
 
       {path:"newaudi", component:NewAudiComponent},
       {path:"newbmw", component:NewBmwComponent},

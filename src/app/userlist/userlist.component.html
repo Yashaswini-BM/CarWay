@@ -1,0 +1,30 @@
+<h2>List of Users Applied For loan</h2>
+<br>
+<table class="styled-table">
+    <thead class="style-head">
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Car Name</th>
+        <th>Mobile No</th>
+        <th>Email</th>
+        <th>Income</th>
+        <th>EMI</th>
+        <th>Loan Term</th>
+        <th>Loan Status</th>
+    </thead>
+    <tbody class="style-content">
+        <tr *ngFor="let v of user">
+            <td>{{v.name}}</td>
+            <td>{{v.gender}}</td>
+            <td>{{v.carname}}</td>
+            <td>{{v.mobileno}}</td>
+            <td>{{v.email}}</td>
+            <td>{{v.income}}</td>
+            <td>{{v.emi}}</td>
+            <td>{{v.loanterm}}</td>
+            <td>{{v.loanstatus}}</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<button type="submit" class="btn" [routerLink]="['/home']">Back To 🏠</button>

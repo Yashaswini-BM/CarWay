@@ -22,6 +22,7 @@ import { NewAudiComponent } from './new-audi/new-audi.component';
 import { NewBmwComponent } from './new-bmw/new-bmw.component';
 import { NewFordComponent } from './new-ford/new-ford.component';
 import { NewHyundaiComponent } from './new-hyundai/new-hyundai.component';
+import { UserlistComponent } from './userlist/userlist.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { NewHyundaiComponent } from './new-hyundai/new-hyundai.component';
     NewAudiComponent,
     NewBmwComponent,
     NewFordComponent,
-    NewHyundaiComponent
+    NewHyundaiComponent,
+    UserlistComponent
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LoanService {
   user:UserDetails[]=[];
-  private static baseUrl:string="http://localhost:3000";
+  private static baseUrl:string="http://localhost:4000";
   constructor(private http:HttpClient) {
     this.http.get<UserDetails[]>(LoanService.baseUrl+"/list/").subscribe(data=>this.user=data);
   }

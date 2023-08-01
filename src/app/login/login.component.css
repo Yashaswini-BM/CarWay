@@ -1,6 +1,9 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+*{
+  font-family: 'PT Serif', serif;
 
+}
 /* zocial */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
